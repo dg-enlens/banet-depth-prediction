@@ -1,0 +1,11 @@
+raw_path,depth_path
+/home/enlens/my_dataset/val/rgb/0.png,/home/enlens/my_dataset/val/depth/0.png
+/home/enlens/my_dataset/val/rgb/1.png,/home/enlens/my_dataset/val/depth/1.png
+/home/enlens/my_dataset/val/rgb/2.png,/home/enlens/my_dataset/val/depth/2.png
+/home/enlens/my_dataset/val/rgb/3.png,/home/enlens/my_dataset/val/depth/3.png
+/home/enlens/my_dataset/val/rgb/4.png,/home/enlens/my_dataset/val/depth/4.png
+/home/enlens/my_dataset/val/rgb/5.png,/home/enlens/my_dataset/val/depth/5.png
+/home/enlens/my_dataset/val/rgb/6.png,/home/enlens/my_dataset/val/depth/6.png
+/home/enlens/my_dataset/val/rgb/7.png,/home/enlens/my_dataset/val/depth/7.png
+/home/enlens/my_dataset/val/rgb/8.png,/home/enlens/my_dataset/val/depth/8.png
+/home/enlens/my_dataset/val/rgb/9.png,/home/enlens/my_dataset/val/depth/9.png

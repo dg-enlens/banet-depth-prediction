@@ -1,0 +1,11 @@
+raw_path,depth_path
+/home/enlens/my_dataset/train/rgb/0.png,/home/enlens/my_dataset/train/depth/0.png
+/home/enlens/my_dataset/train/rgb/1.png,/home/enlens/my_dataset/train/depth/1.png
+/home/enlens/my_dataset/train/rgb/2.png,/home/enlens/my_dataset/train/depth/2.png
+/home/enlens/my_dataset/train/rgb/3.png,/home/enlens/my_dataset/train/depth/3.png
+/home/enlens/my_dataset/train/rgb/4.png,/home/enlens/my_dataset/train/depth/4.png
+/home/enlens/my_dataset/train/rgb/5.png,/home/enlens/my_dataset/train/depth/5.png
+/home/enlens/my_dataset/train/rgb/6.png,/home/enlens/my_dataset/train/depth/6.png
+/home/enlens/my_dataset/train/rgb/7.png,/home/enlens/my_dataset/train/depth/7.png
+/home/enlens/my_dataset/train/rgb/8.png,/home/enlens/my_dataset/train/depth/8.png
+/home/enlens/my_dataset/train/rgb/9.png,/home/enlens/my_dataset/train/depth/9.png
