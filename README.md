@@ -64,7 +64,7 @@ respectively provides the full paths to RGB images and depth-map images / NumPy 
 - The depth-maps should be formatted either as grayscale images (higher intensity pixels corresponds to higher depths, 
 common image formats are supported) or as [saved NumPy arrays](https://numpy.org/doc/stable/reference/generated/numpy.save.html?highlight=save#numpy.save)
 with float32 values (`.npy` or `.npz`).
-- Training is launched with the following command:
+- Training is launched with the following command (note that `--width` and `--height` values must be multiple of **32**):
   ```bash
   python3 main.py --train 1 --height 192 --width 256 --train_csv train.csv --val_csv val.csv
   ```
@@ -82,8 +82,8 @@ The full list of options can also be retrieved with `python3 main.py -h`.
 
 | Argument            | Type    | Default | Description |
 |---------------------|---------|---------|-------------|
-| `height`            | int     | `192`   | Input height of the image to be passed to the network. Images and depth-maps are resized to this height. |
-| `weight`            | int     | `256`   | Input width of the image to be passed to the network. Images and depth-maps are resized to this width. |
+| `height`            | int     | `192`   | Input height of the image to be passed to the network. Images and depth-maps are resized to this height. Must be a multiple of **32**. |
+| `width`         | int     | `256`   | Input width of the image to be passed to the network. Images and depth-maps are resized to this width. Must be a multiple of **32**. |
 | `cuda`              | bool    | `1`     | Activate CUDA. Set to `0` to run the code on CPU only. |
 | `train_csv`         | str     | Empty   | Path to a CSV file pointing to training data. See the _Training_ section above. |
 | `val_csv`           | str     | Empty   | Path to a CSV file pointing to validation data. See the _Training_ section above. |
